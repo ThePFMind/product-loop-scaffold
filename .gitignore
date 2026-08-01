@@ -1,0 +1,7 @@
+state/*.db
+state/*.db-*
+state/loop.log
+__pycache__/
+*.pyc
+.venv/
+.hypothesis/

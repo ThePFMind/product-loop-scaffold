@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(./contracts/**)", "Write(./contracts/**)",
+      "Edit(./gates/**)", "Write(./gates/**)",
+      "Edit(./records/decisions/**)", "Write(./records/decisions/**)",
+      "Edit(./records/feedback/**)",
+      "Edit(./SEED.md)", "Write(./SEED.md)",
+      "Edit(./core/journal.py)", "Write(./core/journal.py)",
+      "Edit(./CLAUDE.md)", "Write(./CLAUDE.md)",
+      "Edit(./.claude/**)", "Write(./.claude/**)"
+    ]
+  }
+}
