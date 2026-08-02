@@ -33,7 +33,8 @@ argument. Smallest change that flips the next FAIL criterion in gates/.
    gathers, the analyst drafts hypotheses, the human decides, the
    falsifier disproves — in fresh sessions, and the falsifier is
    read-only. Gate criteria default to FAIL.
-9. **Steward owns** contracts/, gates/, records/decisions/, SEED.md, and
+9. **Steward owns** contracts/, gates/, records/decisions/, SEED.md,
+   rules/test_monitor_contract.py (the lens's conformance suite), and
    this file. Propose, don't merge.
 10. **Tool-surface only.** Effects happen through this session's granted
     tools plus the journal CLI. No out-of-band side effects.
